@@ -1,4 +1,5 @@
-body {
+
+ 	body {
     
     font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
     font-size: 20px;
@@ -12,15 +13,35 @@ body {
 
     margin:0 auto;
 
-    width:940px;
+    width:60%;
 
     text-align:center;
 }
-
-#img1 {
-float: right;
-	
+section {
+    float:left;
 }
+
+img{ width:100%;}
+
+.img1 {
+	height: 50%;
+	width: 100%;
+	display: inline-block;
+}
+.img2 {
+	max-width: : 50%;
+	max-height: : 20%;
+	display: inline-block;
+}
+
+.aboutme {
+	max-width: 40%;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+
+
 #youtubevid {margin-left: 100px}
 h2{
 	font-size:30px;
@@ -176,6 +197,226 @@ ul {text-align: center;
 }
 
 div#foot_section {
+    line-height:100%;
+	margin:0 auto;
+
+    width:100%;
+
+    text-align:center;
+     background:black;
+     position:absolute;
+ 
+
+ }
+
+
+
+ 
+
+
+
+@media only screen and (min-width: 600px)
+ {
+    #container {
+
+    width: 40%;
+    height: 40%;
+    text-align: justify;
+    }
+ }
+
+body {
+    
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin:0;
+    padding:0;
+    background color:#CCCCCC;
+    border: 2px solid black;
+    line-height:60px;
+
+    margin:0 auto;
+
+    width:990px;
+
+    text-align:center;
+}
+
+#img1 {
+	
+	max-width: 100%;
+	display: inline-block;
+	float:left;
+
+}
+#img2 {
+		max-width: 100%;
+	display: inline-block;
+	float:left;
+	
+}
+
+	
+}
+#youtubevid {
+	margin-left: 100px}
+h2{
+	font-size:30px;
+	
+	margin:-5px;
+	margin-right: 70%;
+	padding:40px;
+	
+	}
+
+#h1 {font-size: 60px;}
+
+#header_container {
+
+    background:black;
+
+    border:1px solid #666;
+
+    height:100px;
+
+    left:0;
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+}
+
+div#header {
+
+    line-height:100px;
+
+    margin:0 auto;
+
+    width:940px;
+
+    text-align:center;
+}
+.social ul.social_icons li {
+    display: inline-block;
+}
+.social ul.social_icons li a{
+	width: 30px;
+	height: 30px;
+	font-size: 0px;
+	background: url(http://i.imgur.com/MkUfchL.png) no-repeat;
+	margin-top: 4px;
+	display:block;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social ul.social_icons li.facebook a:hover{
+		background-position: 0 -33px;
+} 
+.social ul.social_icons li.twitter a{
+		background-position:-33px 0;
+} 
+.social ul.social_icons li.twitter a:hover{
+		background-position:-33px -33px;
+}
+.social ul.social_icons li.insta a{
+		background-position: -66px 0;
+} 
+.social ul.social_icons li.insta a:hover{
+		background-position: -66px -33px;
+}
+.social ul.social_icons li.youtube a {
+	background-position: -99px 0;
+}
+.social ul.social_icons li.youtube a:hover {
+	background-position: -99px -33px;
+}
+.social ul.social_icons li.pin a {
+	background-position: -132px 0;
+}
+.social ul.social_icons li.pin a:hover {
+	background-position: -132px -33px;
+}
+
+
+
+ul {text-align: center;
+	}
+ li  {
+ 	display: inline-block;
+
+  text-align: center;
+ 	
+    background-color: black;
+
+    }
+
+
+#headerlist{
+
+	float:left;
+    margin-left: 40%;
+    padding: 5px;
+    color: yellow;
+    font-family: trebuchet ms;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: justify;
+    word-wrap:break-word;
+
+}
+
+#container {
+
+    margin:0 auto;
+
+    overflow:auto;
+
+    padding:150px 0;
+
+    width:940px;
+    text-align: left;
+}
+
+
+
+#h1 {font-family:Impact, sans-serif;
+	font-size: 20px
+	font-weight:bold;
+	text-align: center;
+}
+
+
+.aboutme {
+	max-width: 100%;
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#footer_container {
+
+    background:black;
+
+    border:1px solid #666;
+
+    bottom:0;
+
+    height:60px;
+
+    left:0;
+
+    position:relative;
+
+    width:100%;
+}
+
+div#foot_section {
     line-height:100px;
 	margin:0 auto;
 
@@ -185,3 +426,12 @@ div#foot_section {
      background:black;
      position:absolute;
  }
+
+
+}
+
+
+
+
+
+
